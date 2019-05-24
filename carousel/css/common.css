@@ -1,0 +1,87 @@
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-width: 800px;
+}
+
+img {
+    width: 100%;
+}
+
+.main_div {
+    position: relative;
+    top: 30px;
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.ul_img {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    font-size: 0;
+    width: 6000px;
+}
+
+.li_img {
+    list-style: none;
+    float: left;
+    width: 800px;
+}
+
+.arrows {
+    position: absolute;
+    z-index: 9999;
+    top: 160px;
+    width: 800px;
+}
+
+.arrow_right {
+    float: right;
+}
+
+.arrows span {
+    font-size: 5em;
+    color: rgba(220, 220, 220, 0.49);
+}
+
+.arrows span:hover {
+    cursor: pointer;
+    background-color: rgba(192, 192, 192, 0.29);
+    color: seashell !important;
+}
+
+.btn_wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 420px;
+    z-index: 9999;
+    width: 800px;
+}
+
+.div_btn {
+    float: left;
+    margin-left: 10px;
+    background-color: rgba(220, 220, 220, 0.49);
+    border-radius: 2px;
+    width: 60px;
+    height: 8px;
+}
+
+.current {
+    background-color: seashell;
+}
+
+.div_btn:hover {
+    background-color: seashell;
+}
